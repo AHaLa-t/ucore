@@ -1,0 +1,25 @@
+(THU.CST) os is loading ...
+
+Special kernel symbols:
+  entry  0x00100000 (phys)
+  etext  0x00103311 (phys)
+  edata  0x0010ea16 (phys)
+  end    0x0010fd20 (phys)
+Kernel executable memory footprint: 64KB
+ebp:7b08 eip:1009a7 args:caa0000 940010 1 7b380000
+    kern/debug/kdebug.c:306: print_stackframe+22
+ebp:7b18 eip:100caa args:920000 10 0 0
+    kern/debug/kmonitor.c:125: mon_backtrace+10
+ebp:7b38 eip:100092 args:bb0000 10 7b600000 0
+    kern/init/init.c:48: grade_backtrace2+33
+ebp:7b58 eip:1000bb args:d90000 10 0 7b84ffff
+    kern/init/init.c:53: grade_backtrace1+38
+ebp:7b78 eip:1000d9 args:fe0000 10 0 10
+    kern/init/init.c:58: grade_backtrace0+23
+ebp:7b98 eip:1000fe args:550000 333c0010 33200010 130a0010
+    kern/init/init.c:63: grade_backtrace+34
+ebp:7bc8 eip:100055 args:7d680000 0 0 0
+    kern/init/init.c:28: kern_init+84
+ebp:7bf8 eip:7d68 args:7c4f0000 fcfa0000 d88ec031 d08ec08e
+    <unknow>: -- 0x00007d67 --
+++ setup timer interrupts
